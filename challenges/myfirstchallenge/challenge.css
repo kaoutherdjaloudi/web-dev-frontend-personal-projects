@@ -1,0 +1,118 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  background-color: #F4F4F4;
+}
+.container{
+  margin: auto;
+  width: 80%;
+  overflow: hidden;
+}
+header {
+  background: #35424A;
+  color: white;
+  padding-top: 10PX;
+  min-height: 70PX;
+  border-bottom: 5px #e8491D solid;
+}
+header a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+header ul {
+   margin: 0;
+   padding: 0;
+}
+header li {
+  float: left;
+  display: inline;
+  padding: 0 20PX 0 20PX;
+}
+header #branding{
+  float: left;
+}
+header #branding h1{
+  margin: 0;
+}
+header nav  {
+  float: right;
+  margin-bottom: 10px;
+}
+header .heighlight , header .current a{
+  color: #E8491D;
+  font-weight: bold;
+}
+header a:hover{
+  color: #ccc;
+  font-weight: bold;
+}
+#showcase {
+  min-height: 100px;
+  background-image: url(computer.jpg);
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+}
+#showcase h1{
+  font-size: 50px;
+}
+#showcase p{
+  font-size: 20px;
+}
+#newsletter {
+  padding: 15px;
+  color: white;
+  background: #35426A;
+}
+#newsletter h1{
+  float: left;
+}
+#newsletter form{
+  float: right;
+  margin-top: 15px;
+}
+#newsletter input[type="EMAIL"]{
+  width: 250px;
+  height: 25px;
+}
+.button_1 {
+  color: white;
+  background: #e8491D;
+  border: 0;
+  height: 30px;
+  width: 100px;
+  opacity: 100%;
+  animation-name: rot;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+@keyframes rot {
+  0% {opacity: 0%}
+  100% {opacity: 100%}
+}
+#boxes {
+  margin-top: 20px;
+}
+#boxes .box {
+  float: left;
+    width: 30%;
+  padding: 10px;
+  text-align: center;
+}
+#boxes .box img{
+  height: 100px;
+  width: 100px;}
+footer {
+  background: #e8491D;
+  color: white;
+  font-size: 20 px;
+  margin-top: 20px;
+  padding: 20px;
+  font-family: arial;
+  text-align: center;
+}

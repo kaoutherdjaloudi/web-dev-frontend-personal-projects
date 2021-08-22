@@ -1,0 +1,121 @@
+body{
+  background: #F4F4F4;
+  margin: 0;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  padding: 0;
+  }
+  .container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  }
+header{
+  background: #35424A;
+  color: white;
+  border-bottom: 5px #E8491D solid;
+  padding-top: 10PX;
+  min-height: 70PX;
+}
+header #branding{
+  float: left;
+
+}
+header #branding h1{
+  margin: 0;
+}
+header span{
+  color: #e8491D;
+}
+header a{
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+header ul{
+  padding: 0;
+  margin: 0;
+}
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20PX 0 20PX;
+}
+header nav {
+  float: right;
+  margin-bottom: 10px;
+}
+header .current a{
+  color: #E8491D;
+}
+header a:hover{
+  color: #ccc;
+  font-weight: bold;
+}
+#Newsletter {
+  background: #35426A;
+  color: white;
+  padding: 15px;
+}
+#Newsletter h1{
+  float: left;
+}
+#Newsletter form{
+  float: right;
+}
+#Newsletter input[type="email"]{
+  height: 25PX;
+  width: 250PX;
+}
+.button1{
+  width: 100px;
+  height: 30px;
+  background: #E8491D;
+  color: white;
+  border: none;
+  animation-name: rol;
+  animation-duration: 2s;
+  opacity: 100%;
+}
+@keyframes rol {
+  0% {opacity: 0%;}
+  100% {opacity: 100%;}
+}
+#services > div{
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-gap: 30px;
+}
+#services .global{
+  display: grid;
+  grid-template-rows: auto;
+  grid-gap: 5px;
+}
+#services .global > div{
+border: 0.5px black solid;
+background: #ccc;
+padding: 20px 10px 20px 10px;
+}
+#services form{
+  color: white;
+  background: #35424A;
+  margin-top: 50px;
+  padding: 30PX 20PX 20PX 10PX;
+}
+.button_2{
+  background: #E8491D;
+  border: none;
+  color: white;
+  height: 30px;
+  width: 70px;
+}
+footer{
+  font-size: 20px;
+  background: #e8491D;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+
+}

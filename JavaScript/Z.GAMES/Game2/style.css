@@ -1,0 +1,35 @@
+body{
+    background: #135058;
+    color: #F1F2B5;
+}
+.square{
+    width: 200px;
+    height: 200px;
+    border: solid #F1F2B5 2px;
+    text-align: center;
+    margin: 0;
+}
+/* my code */
+
+/* .grid{
+    width: 680px;
+    height: 680px;
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    grid-gap: 0;
+} */
+
+/* her code */ 
+
+.grid{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    width: 680px;
+    height: 680px;
+}
+.mole {
+    background-image: url('images.png');
+    background-size: cover;
+}

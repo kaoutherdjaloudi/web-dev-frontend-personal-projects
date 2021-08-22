@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/apropos.css">
+    <title>Document</title>
+</head>
+<body>
+    <section id="header">
+        <div class="header container">
+            <div class="nav-bar">
+                <div class="brand"></div>
+                <div class="nav-list">
+                    <div class="humberger"><div class="bar"></div></div>
+                <ul>
+                    <li><a href="../html/home.html" data-after="Home">HOME</a></li>
+                    <li><a href="apropos.html" data-after="About">A PROPOS</a></li>
+                    <li><a href="#contact" data-after="Contact">CONTACT</a></li>
+                </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="apropos">
+        <div class="us">
+            <img src="../img/blackprofile.png" alt="equipe">
+            <p>Nous sommes un groupe des étudiants de 2 émé anné a l'école superieure national de l'informatique, nous avons developpé cette application en tant que projet 2cp</p>
+        </div>
+        <div class="job">
+            <img src="../img/esi.png" alt="ESI">
+            <p>Une application web qui permet à la commission logmenetq de l'ESI de resencer et claser les demandeurs de logement appartenant au corps adminisrtatif de l'école périodiquement.</p>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <h3>Contact Us</h3>
+            <p>Recenessenement de logement de l'Ecole superieure national de l'informatique</p>
+            <ul class="socials" id="contact">
+                <li><a href="#"><img src="../img/facebook.png"></a></li>
+                <li><a href="#"><img src="../img/email.png"></a></li>
+                <li><a href="#"><img src="../img/marquer.png"></a></li>
+                <li><a href="#"><img src="../img/phone.png"></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+           <p>COPYRIGHTS &copy; 2020 all rights reserved</p>
+        </div> 
+     </footer>
+
+     <script>
+         const humberger = document.querySelector(".header .nav-bar .nav-list .humberger");
+     const mobilemenu = document.querySelector(".header .nav-bar .nav-list ul");
+     const header = document.querySelector(".header.container");
+
+     humberger.addEventListener("click", () => {
+     humberger.classList.toggle("active");
+     mobilemenu.classList.toggle("active");
+     });
+     document.addEventListener("scroll", () => {
+     var scroll_position = window.scrollY;
+     if (scroll_position > 250) {
+      header.style.backgroundColor = "transparent";
+    } else {
+      header.style.backgroundColor = "transparent";
+    }
+    });
+     </script>
+</body>
+</html>

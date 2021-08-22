@@ -1,0 +1,118 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  background-color: #F4F4F4;
+}
+.container{
+  margin: auto;
+  width: 80%;
+  overflow: hidden;
+}
+header {
+  background: #35424A;
+  color: white;
+  padding-top: 10PX;
+  min-height: 70PX;
+  border-bottom: 5px #e8491D solid;
+}
+header a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+header ul {
+   margin: 0;
+   padding: 0;
+}
+header li {
+  float: left;
+  display: inline;
+  padding: 0 20PX 0 20PX;
+}
+header #branding{
+  float: left;
+}
+header #branding h1{
+  margin: 0;
+}
+header nav  {
+  float: right;
+  margin-bottom: 10px;
+}
+header .heighlight , header .current a{
+  color: #E8491D;
+  font-weight: bold;
+}
+header a:hover{
+  color: #ccc;
+  font-weight: bold;
+}
+header a:active{
+  color: #e8491D;
+}
+#newsletter {
+  padding: 15px;
+  color: white;
+  background: #35426A;
+}
+#newsletter h1{
+  float: left;
+}
+#newsletter form{
+  float: right;
+  margin-top: 15px;
+}
+#newsletter input[type="EMAIL"]{
+  width: 250px;
+  height: 25px;
+}
+.button_1 {
+  color: white;
+  background: #e8491D;
+  border: 0;
+  height: 30px;
+  width: 100px;
+  opacity: 100%;
+  animation-name: rot;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+@keyframes rot {
+  0% {opacity: 0%}
+  100% {opacity: 100%}
+}
+#container_1 {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  grid-gap: 1em;
+  width: 80%;
+  margin: auto;
+}
+.about1 {
+  margin-top: 10px;
+}
+.what {
+  margin-top: 10px;
+  padding: 10px;
+  background: #333;
+  color: white;
+}
+.justqst {
+  margin-top: -30px;
+  padding: 10px;
+  background: #333;
+  color: white;
+}
+footer {
+  background: #e8491D;
+  color: white;
+  font-size: 20 px;
+  margin-top: 20px;
+  padding: 20px;
+  font-family: arial;
+  text-align: center;
+}

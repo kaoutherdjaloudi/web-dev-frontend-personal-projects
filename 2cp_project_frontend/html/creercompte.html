@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/creercompte.css">
+    <title>Creer Compte</title>
+</head>
+<body>
+    <nav>
+        <div class="Logos"><img src="../img/whitelogo.png" alt="logo"></div>
+            <ul class="nav-links">
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">Mon profile</a></li>
+                <li> <div class="lang-menu">
+                  <div class="selected-lang">
+                    Francais 
+                  </div>
+                  <ul>
+                    <li> <a href="#" class="ar">Arabe</a></li>
+                    <li> <a href="#" class="eng">Englais</a></li>
+                    <li> <a href="#" class="ru">Russian</a></li>
+                  </ul>
+                </div></li>
+            </ul>
+        </nav>
+
+    <div class="container">
+        <form class="information" action="post">
+            <div class="img">
+                <img src="../img/personne.jpg" alt="">
+            </div>
+            <br>
+            <div class="infos">
+                <input type="text" placeholder="Full Name">
+                <br>
+                <input type="email" placeholder="Email Adresse">
+                <br>
+                <input type="password" name="Password" placeholder="password">
+                <br>
+                <input type="password" name="Password" placeholder="confirm password">
+                <br>
+                <select name="Profile">
+                    <option value="Admin">Admin</option>
+                    <option value="Valideur">Valideur</option>
+                    <option value="Editeur">Editeur</option>
+                </select>
+                <br>
+            </div>
+        </form>
+        <a class="btn" href="#">Creer</a>
+    </div>
+
+</body>
+</html>

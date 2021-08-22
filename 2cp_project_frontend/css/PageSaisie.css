@@ -1,0 +1,266 @@
+*           {
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+            }
+            body 
+            {
+                background-color: white;
+            }
+
+            .menu-bar2 img
+            {
+                width: 45px;
+                height: 30px;
+                float: left;
+                margin-top: 15px;
+                margin-left: 20px;
+            }
+            .menu-bar
+            {
+                text-align: center;
+                background-color: #4BA3C3;
+            }
+            .menu-bar ul 
+            {
+                display: inline-flex;
+                list-style: none;
+                color: white; 
+
+            }
+            .menu-bar ul li 
+            {
+
+                width: 190px;
+                margin:10px;
+                padding: 10px;
+            }
+            .menu-bar ul li a
+            {
+                text-decoration: none;
+                color: white;
+            }
+            .menu-bar ul li:hover
+            {
+                background: #175676;
+                border-radius: 50px;
+            }
+            button 
+            {
+                padding: 9px 25px;
+                background-color: #175676;
+                border : none;
+                text-align: center;
+                border-radius: 50px;
+                cursor:pointer ;
+                transition: all 0.3s ease 0s;
+                color: white;
+            }
+            button:hover
+            {
+                background-color: #D62839;
+                border-radius: 50px;
+            }
+            h2
+            {
+                text-align: center;
+                text-shadow: #4BA3C3;
+            }
+            /* LE DESIGN POUR OUVRIR ETAT */
+            .modal 
+            {
+                visibility: hidden;
+                opacity: 0;
+                position: absolute;
+                top :0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                background-color: #175676;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                align-items: center;
+                transition: .3s;
+            }
+
+
+            .modal:target 
+            {
+                visibility: visible;
+                opacity: 1;
+            }
+            .modal h2
+            {
+                background-color: white;
+                padding: 1.5em 2em;
+                width: 500px;
+                max-width: 90%;
+                border-radius: 4px;
+                position: relative;
+            }
+            .modal_close 
+            {
+                position: absolute;
+                right: 390px;
+                top: 260px;
+                color :white;
+                text-decoration: none;
+            }
+            .menu-bar2
+            {
+                text-align:right;
+                background-color: #175676;
+            }
+            .menu-bar2 ul 
+            {
+                display: inline-flex;
+                list-style: none;
+                color: white; 
+
+            }
+            .menu-bar2 ul li 
+            {
+                width: 100px;
+                margin:10px;
+                padding: 10px;
+            }
+            .menu-bar2 ul li a
+            {
+                text-decoration: none;
+                color: white;
+            }
+            .menu-bar2 ul li:hover
+            {
+                background: #D62839;
+                text-align: center;
+                border-radius: 50px;
+            }
+            .submenu1
+            {
+                display: none;
+
+            }
+            .menu-bar2 ul li:hover .submenu1
+            {
+                display: block;
+                position: absolute;
+                background-color: #175676 ;
+                margin-top: 10px;
+                margin-left: -50px;
+            }
+            .menu-bar2 ul li:hover .submenu1 ul 
+            {
+                display: block;
+                margin :10px;
+            }
+            .menu-bar2 ul li:hover .submenu1 ul li
+            {
+                width : 100px;
+                padding: 5px;
+                border-bottom: 1px dotted #fffF;
+                background: transparent;
+                border-radius: 0;
+                text-align: left;
+            }
+            .menu-bar2 ul li:hover .submenu1 ul li:last-child
+            {
+                border-bottom: none;
+            }
+            .menu-bar2 ul li:hover .submenu1 ul li a:hover
+            {
+                color : white;
+            }
+
+            .FORMULAIRE
+            {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .FORMULAIRE h2
+            {
+                margin: 30px;
+                color: #D62839;
+            }
+
+            button
+            {
+                outline: none;
+                cursor: pointer;
+                margin: 15px;
+            }
+
+            fieldset
+            {
+                width: 100%;
+                padding: 10px 20px;
+                background-color: #CCE6F4;
+                border: transparent;
+                border-radius: 50px;
+            }
+
+            legend{
+                text-align: center;
+                color: #D62839;
+                margin: 10px;
+                font-size: 1.2rem;
+                border-bottom: #D62839 solid 2px;
+            }
+            
+            input
+            {
+                margin: 5px;
+            }
+            
+            .btn
+            {
+                position: absolute;
+                transform: translate(-50%, -50%);
+                background-color: #175676;
+                color: white;
+                font-size: 16px;
+                padding: 9px 25px;
+                cursor: pointer;
+                border-radius: 50px;
+                margin: 45px;
+            }
+            #box
+            {
+                width: 500px;
+                overflow: hidden;
+                background-color: pink;
+                box-shadow: 0 0 10px black;
+                border-radius: 50px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                z-index: 9999;
+                padding: 20px;
+                text-align: center;
+                display: none;
+            }
+            a {
+                text-decoration: none;
+            }
+            #box h1
+            {
+                color: #175676;
+            }
+
+            .close{
+                font-size: 20px;
+                color: white;
+                padding: 10px 30px;
+                cursor: pointer;
+                background-color: #175676;
+                display: inline-block;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+
+
+            @media only screen and (min-width: 800px)
+            {}

@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 30px;
+    background-color: #734B6D;
+    color: #FCEABB;
+}
+button{
+    background-color: #F8B500;
+    color: #42275A;
+    width: 180px;
+    height: 20px;
+    padding: 20px;
+    border-radius: 10%;
+    border-style: none;
+    margin: 10px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font: 30px ;
+    font-weight: 800;
+}
+.grid{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    border: solid 3px #F8B500;
+}
+.grid div{
+    width: 20px;
+    height: 20px;
+}
+.score{
+    padding: 20px;
+}
+.snake{
+    background-color: #FCEABB;
+
+}
+.apple{
+    background-color: black;
+}
